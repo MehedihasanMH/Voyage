@@ -1,10 +1,14 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-		.agent {
+	/*header top start*/
+	.agent {
     padding: 0 0px;
     font-size: .8rem;
     color: white;
     border-right: 1px solid transparent !important;    
+	}
+	.fo_icon{
+	text-align: right;
 	}
 	.fo_icon li i {
 	text-align: right;
@@ -12,17 +16,122 @@
     color: white;
     transition: .3s;
 	}
-	
+	/*header top end*/
+
+	/*header start*/
+	.img-fluid {
+    max-width: 70%;
+    height: auto;
+	}
+	img, svg {
+    vertical-align: top;
+	}
+	.navbar-light .navbar-toggler {
+    color: rgb(29, 210, 175);
+	}
+	.navbar-brand {
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    margin-right: 1rem;
+    font-size: .9rem;
+    text-decoration: none;
+    white-space: nowrap;
+	}
+/*slider start*/
+.slider{
+    background-image: url(../images/bgslider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 40vh;
+    position: relative;
+    width: 100%;
+    /* z-index: -2; */
+	}
+
+/* .slider{
+    background-color: aqua;
+    
+} */
+
+.slider_text{
+    position: relative;
+    min-height: 40vh;
+    width: 100%;
+    color: #fff;
+	}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    z-index: 1;
+	}
+.h1{
+	font-size: 23px;
+	text-align: center;
+	margin-top: 25px;
+	text-transform: uppercase;
+	}
+.h3{
+	font-size: 18px;
+	text-align: center;
+	}
+
+.carousel-indicators {
+    bottom: 30px;
+	}
+.carousel-indicators li{
+	background-color: #1fbea2;
+	width: 15px;
+	}
+/*offer start*/
+.offer{
+	margin-bottom: 120px;
+	}
+.c_title{
+	margin-top: 70px;
+	margin-bottom: 20px;
+	}
+.c_h1{
+	font-size: 22px;
+	font-weight: 500;
+	color: #2c3e50;
+	margin-bottom:10px;
+	}
+.c_p{
+	font-weight: 400;
+	color: #2c3e50;
+	}
+.btn-offer {
+    color: #fff;
+    background-color: #1fbea2 !important; 
+    border-color: #1fbea2 !important; 
+	}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin-bottom: 25px;
+}
  }
 
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-		.agent {
+	/*header top start*/
+	.agent {
     padding: 0 3px;
     font-size: .8rem;
     color: white;
     border-right: 1px solid transparent !important;    
+	}
+	.fo_icon{
+	text-align: right;
 	}
 	.fo_icon li i  {
 	text-align: right;
@@ -30,24 +139,49 @@
     color: white;
     transition: .3s;
 	}
-	
+	/*header top end*/
+
+	/*header start*/
+	.img-fluid {
+    max-width: 80%;
+    height: auto;
+	}
+	img, svg {
+    vertical-align: top;
+	}
+	.navbar-light .navbar-toggler {
+    color: rgb(29, 210, 175);
+	}
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header top start*/
 	.agent {
     padding: 0 2px;
     font-size: .8rem;
     color: white;
     border-right: 1px solid transparent !important;
-    
-}
+	}
+	.fo_icon{
+	text-align: right;
+	}
 	.fo_icon li i {
+	text-align: right;
     font-size: 13px;
     color: white;
     transition: .3s;
-}
-	
+	}
+	/*header top End*/
+
+	/*header start*/
+	.img-fluid {
+    max-width: 80%;
+    height: auto;
+	}
+	img, svg {
+    vertical-align: top;
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -67,6 +201,7 @@
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1600px) { 
+	/*header top start*/
 	.btn1 {
     text-align: center;
     cursor: pointer;
@@ -76,8 +211,9 @@
     padding: 0 7px;
     font-size: 1rem;
     color: white;
-    border-right: 1px solid black !important;
-    
+	}
+	.fo_icon{
+	text-align: right;
 	}
 	.fo_icon li i {
     font-size: 16px;
